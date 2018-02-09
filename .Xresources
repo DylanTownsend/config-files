@@ -1,0 +1,81 @@
+/* URxvt */
+
+/* Backgrouond settings */
+ /* URxvt.transparent: true */
+ /* URxvt.shading: 90 */
+URxvt.depth: 32
+URxvt.background: [0]#000000
+ /* URxvt.blurRadius: 15 */
+
+/* Scrollbar settings */
+URxvt.scrollBar: false
+
+/* Border settings */
+URxvt.externalBorder: 0
+URxvt.internalBorder: 20
+
+/* Text settings */
+URxvt.font: xft: DejaVu Sans Mono: size=20
+URxvt.foreground: #bdbdbd
+URxvt.cursorColor: #bdbdbd
+URxvt.cursorColor2: #424242
+URxvt.highlightColor: #bdbdbd
+URxvt.highlighTextColor: #424242
+
+ /* Black */
+URxvt*color0: #bdbdbd
+URxvt*color8: #bdbdbd
+
+ /* Red */
+URxvt*color1: #bdbdbd
+URxvt*color9: #bdbdbd
+
+ /* Green */
+URxvt*color2: #bdbdbd
+URxvt*color10: #bdbdbd
+
+ /* Yellow */
+URxvt*color3: #bdbdbd
+URxvt*color11: #bdbdbd
+
+ /* Blue */
+URxvt*color4: #bdbdbd
+URxvt*color12: #bdbdbd
+
+ /* Magenta */
+URxvt*color5: #bdbdbd
+URxvt*color13: #bdbdbd
+
+ /* Cyan */
+URxvt*color6: #bdbdbd
+URxvt*color14: #bdbdbd
+
+ /* White */
+URxvt*color7: #bdbdbd
+URxvt*color15: #bdbdbd
+
+/* URxvt */
+
+/***********************************************************************/
+
+/* Rofi */
+
+/* Shape and location */
+rofi.lines: 1
+rofi.width: 8 
+rofi.location: 2
+
+/* Colors */
+ /* State:         'bg',    'fg',    'bgalt', 'hlbg',    'hlfg' */
+rofi.color-normal: #000000, #bdbdbd, #000000, #00000000, #bdbdbd
+rofi.color-urgent: #000000, #bdbdbd, #000000, #00000000, #bdbdbd
+rofi.color-active: #000000, #bdbdbd, #000000, #00000000, #bdbdbd
+
+ /* State:         'background'  'border'      'separator' */
+rofi.color-window: #00000000,    #00000000,    #00000000 
+
+/* Misc */
+rofi.font: DejaVu Sans Mono 15
+rofi.disable-history: true
+
+/* Rofi */
