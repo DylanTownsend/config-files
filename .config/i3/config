@@ -171,6 +171,7 @@ bindsym Mod1+r mode "resize"
 #
 # Please remove the following exec line:
 #######################################################################
+#exec-i3-config-wizard
 
 # Set gap sizes
 gaps inner 15
