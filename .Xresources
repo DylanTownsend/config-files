@@ -2,10 +2,10 @@
 
 /* Backgrouond settings */
  /* URxvt.transparent: true */
- /* URxvt.shading: 90 */
-URxvt.depth: 32
+ /* URxvt.shading: 100 */
+URxvt.depth: 32 
 URxvt.background: [0]#000000
- /* URxvt.blurRadius: 15 */
+ /* URxvt.blurRadius: 15
 
 /* Scrollbar settings */
 URxvt.scrollBar: false
@@ -23,7 +23,7 @@ URxvt.highlightColor: #bdbdbd
 URxvt.highlighTextColor: #424242
 
  /* Black */
-URxvt*color0: #bdbdbd
+URxvt*color0: #424242
 URxvt*color8: #bdbdbd
 
  /* Red */
@@ -52,7 +52,7 @@ URxvt*color14: #bdbdbd
 
  /* White */
 URxvt*color7: #bdbdbd
-URxvt*color15: #bdbdbd
+URxvt*color15: #424242
 
 /* URxvt */
 
@@ -62,8 +62,8 @@ URxvt*color15: #bdbdbd
 
 /* Shape and location */
 rofi.lines: 1
-rofi.width: 8 
-rofi.location: 2
+rofi.width: 10 
+rofi.location: 3 
 
 /* Colors */
  /* State:         'bg',    'fg',    'bgalt', 'hlbg',    'hlfg' */
