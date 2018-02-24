@@ -1,11 +1,11 @@
 /* URxvt */
 
 /* Backgrouond settings */
- /* URxvt.transparent: true */
- /* URxvt.shading: 100 */
-URxvt.depth: 32 
-URxvt.background: [0]#000000
- /* URxvt.blurRadius: 15
+   /* URxvt.transparent: true */
+   /* URxvt.shading: 70 */
+URxvt.depth: 32
+URxvt.background: [20]#000000
+   /* URxvt.blurRadius: 15 */
 
 /* Scrollbar settings */
 URxvt.scrollBar: false
@@ -62,8 +62,8 @@ URxvt*color15: #424242
 
 /* Shape and location */
 rofi.lines: 1
-rofi.width: 10 
-rofi.location: 3 
+rofi.width: 10
+rofi.location: 3
 
 /* Colors */
  /* State:         'bg',    'fg',    'bgalt', 'hlbg',    'hlfg' */
@@ -72,10 +72,10 @@ rofi.color-urgent: #000000, #bdbdbd, #000000, #00000000, #bdbdbd
 rofi.color-active: #000000, #bdbdbd, #000000, #00000000, #bdbdbd
 
  /* State:         'background'  'border'      'separator' */
-rofi.color-window: #00000000,    #00000000,    #00000000 
-
+rofi.color-window: #33000000,    #00000000,    #00000000
+                   /* 4D = 30%, 33 = 20% */
 /* Misc */
 rofi.font: DejaVu Sans Mono 15
-rofi.disable-history: true
+rofi.disable-history: false
 
 /* Rofi */
