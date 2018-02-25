@@ -58,12 +58,12 @@ type = internal/volume
 master-soundcard = hw:0
 speaker-soundcard = hw:0
 headphone-soundcard = hw:0
-mapped = true 
+mapped = true
 format-volume = <label-volume> <bar-volume>
 format-muted = <label-muted>
 label-volume = VOL
 bar-volume-foreground = #bdbdbd
-label-muted = muted
+label-muted = Muted
 label-muted-foreground = #bdbdbd
 bar-volume-width = 10
 bar-volume-foreground-0 = #bdbdbd
@@ -79,7 +79,7 @@ bar-volume-empty-foreground = #bdbdbd
 ;format-muted = <label-muted>
 ;label-volume = VOL
 ;bar-volume-foreground = #bdbdbd
-;label-muted = muted
+;label-muted = Muted
 ;label-muted-foreground = #bdbdbd
 ;bar-volume-width = 10
 ;bar-volume-foreground-0 = #bdbdbd
@@ -96,7 +96,7 @@ format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 label-connected = %essid%
 label-connected-foreground = #bdbdbd
-label-disconnected = no connection
+label-disconnected = No Connection
 label-disconnected-foreground = #bdbdbd
 
 ;[module/wired-network]
@@ -107,7 +107,7 @@ label-disconnected-foreground = #bdbdbd
 ;format-disconnected = <label-disconnected>
 ;label-connected = %linkspeed% %upspeed% %downspeed%
 ;label-connected-foreground = #424242
-;label-disconnected = no connection
+;label-disconnected = No Connection
 ;label-disconnected-foreground = #424242
 
 ;[module/cpu]
