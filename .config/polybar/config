@@ -58,6 +58,7 @@ type = internal/volume
 master-soundcard = hw:0
 speaker-soundcard = hw:0
 headphone-soundcard = hw:0
+mapped = true 
 format-volume = <label-volume> <bar-volume>
 format-muted = <label-muted>
 label-volume = VOL
