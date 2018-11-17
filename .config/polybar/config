@@ -5,7 +5,7 @@ override-redirect = false
 wm-restack = i3
 width = 100%
 height = 35
-background = #33000000
+background = #8C000000
 foreground = #bdbdbd
 padding = 1
 module-margin = 1
@@ -15,7 +15,7 @@ font-2 = DejaVuSansMono:size=15
 font-3 = DejaVuSansMono:size=15
 modules-left = i3
 modules-center = mpd
-modules-right = volume wireless-network battery date
+modules-right = volume wired-network wireless-network battery date
 
 [module/i3]
 type = internal/i3
@@ -99,16 +99,16 @@ label-connected-foreground = #bdbdbd
 label-disconnected = No Connection
 label-disconnected-foreground = #bdbdbd
 
-;[module/wired-network]
-;type = internal/network
-;interface = enp0s20f0u1c4i2
-;interval = 2
-;format-connected = <label-connected>
-;format-disconnected = <label-disconnected>
-;label-connected = %linkspeed% %upspeed% %downspeed%
-;label-connected-foreground = #424242
-;label-disconnected = No Connection
-;label-disconnected-foreground = #424242
+[module/wired-network]
+type = internal/network
+interface = enp62s0u1
+interval = 2
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+label-connected = %local_ip%
+label-connected-foreground = #bdbdbd
+label-disconnected = No Connection
+label-disconnected-foreground = #bdbdbd
 
 ;[module/cpu]
 ;type = internal/cpu
